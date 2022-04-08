@@ -1,3 +1,10 @@
+# NAME: 解锁spotify premium
+# AUTHOR: app2smile
+# REPO: https://github.com/app2smile/rules
+# UPDATED: 2021-11-05
+# REWRITE: 1
+# MITM: 1
+
 # 部分解锁premium 需iOS15 ,建议重新登录,音质不能设置为超高
 # 1. 搜索界面 歌单/歌曲可以随意切换完全播放  2. 音乐库已点赞歌曲随意切换完全播放
 
