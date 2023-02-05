@@ -1,0 +1,20 @@
+# name = 启动广告集合
+# resource = https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/StartUp.conf
+# resource = 
+# update = 
+# RawUrl = 
+
+
+
+hostname = api.douban.com, app2.autoimg.cn, adproxy.autohome.com.cn, api.tipsoon.com
+ 
+# douban
+^https?:\/\/api\.douban\.com\/v2\/app_ads\/splash url reject
+^https?:\/\/api\.douban\.com\/b.*\/common_ads\?.* url reject
+
+# > QiCheZhiJia
+^https?:\/\/adproxy.autohome.com.cn\/AdvertiseService\/ url reject
+^https?:\/\/app2.autoimg.cn\/appdfs\/ url reject
+
+# > jianxun
+^https?:\/\/api\.tipsoon\.com\/api\/v\d\/top\/ad url reject-200
